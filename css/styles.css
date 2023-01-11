@@ -1,0 +1,126 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --main-title-color: #FFFFFF;
+    --footer-title-color: #E7E9FC;
+    --button-title-color: #4D5AE5;
+}
+body {
+    background-color: #FFFFFF;
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;
+    list-style: none;
+}
+.caption {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.studio {
+    color: var(--title-text-color);
+}
+.web {
+   color: #4D5AE5;
+}
+/* header */
+.background {
+    background-color: #2E2F42;
+}
+.background-nev {
+    background-color: #F4F4FD;
+}
+/* кнопки */
+.btn {
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+.btn:hover,
+.btn:focus,
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+.contact {
+    color: #434455;
+}
+.button {
+    color: #4D5AE5;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto';
+    border: none;
+    background-color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+.hero {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.hero:hover,
+.hero:focus {
+    background-color: #404BBF;
+}
+
+/* невидимі заголовки */
+.hidden {
+    position: absolute;
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden;
+}
+.text {
+    color: var(--primary-text-color);
+}
+.effective {
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.1;
+}
+.slogan {
+    font-weight: 700;
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+.subtitle {
+    font-size: 36px;
+    line-height: 1.1;
+}
+.text-nav {
+   color: #E7E9FC; 
+}
+.copy {
+    color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.copyright {
+    color: #E7E9FC;
+}
